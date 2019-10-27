@@ -61,6 +61,7 @@ class Project {
                 opg.cntPredecessors--;
 
                 // Task sin starttid er lik predecessoren sin pluss dens tid.
+                System.out.println(opg.earliestStart);
                 if(opg.earliestStart < (task.earliestStart+task.time)) {
                     opg.earliestStart = task.earliestStart+task.time;
                 }
@@ -172,6 +173,7 @@ class Project {
             System.out.println("Time: " + t.time);
             System.out.println("Staff: " + t.staff);
             System.out.println("Earliest starting time: " + t.earliestStart);
+            System.out.println("Latest starting time: " + t.latestStart);
             System.out.println("Slack: " + t.slack);
             System.out.println("Is this task critical: " + (t.slack== 0 ? "Yes" : "No"));
             String tempString = "";

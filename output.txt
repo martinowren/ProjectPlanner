@@ -1,0 +1,1013 @@
+Project that were found in the task itself:
+----------fraoblig.txt
+**************************
+**-- Task information --**
+**************************
+
+--------
+ID: 1
+Name: Oppgave1
+Time: 3
+Staff: 4
+Earliest starting time: 0
+Slack: 0
+Is this task critical: Yes
+Tasks that depend on this task:
+
+--------
+ID: 2
+Name: Oppgave2
+Time: 5
+Staff: 2
+Earliest starting time: 0
+Slack: 0
+Is this task critical: Yes
+Tasks that depend on this task: 1
+
+--------
+ID: 3
+Name: Oppgave3
+Time: 1
+Staff: 2
+Earliest starting time: 0
+Slack: 0
+Is this task critical: Yes
+Tasks that depend on this task: 2
+
+--------
+ID: 4
+Name: Oppgave4
+Time: 2
+Staff: 4
+Earliest starting time: 0
+Slack: 0
+Is this task critical: Yes
+Tasks that depend on this task: 2
+
+--------
+ID: 5
+Name: Oppgave5
+Time: 4
+Staff: 3
+Earliest starting time: 0
+Slack: 0
+Is this task critical: Yes
+Tasks that depend on this task: 3
+
+--------
+ID: 6
+Name: Oppgave6
+Time: 8
+Staff: 4
+Earliest starting time: 0
+Slack: 0
+Is this task critical: Yes
+Tasks that depend on this task: 3 4
+
+--------
+ID: 7
+Name: Oppgave7
+Time: 3
+Staff: 2
+Earliest starting time: 0
+Slack: 0
+Is this task critical: Yes
+Tasks that depend on this task: 5 6
+
+--------
+ID: 8
+Name: Oppgave8
+Time: 1
+Staff: 3
+Earliest starting time: 0
+Slack: 0
+Is this task critical: Yes
+Tasks that depend on this task:
+
+------------------------------------
+Time: 0
+        Starting: 7
+        Starting: 8
+        Current staff: 5
+
+        Finished: 8
+        Current staff: 2
+
+------------------------------------
+Time: 3
+        Starting: 5
+        Starting: 6
+        Finished: 7
+        Current staff: 7
+
+        Finished: 5
+        Current staff: 4
+
+------------------------------------
+Time: 11
+        Starting: 3
+        Starting: 4
+        Finished: 6
+        Current staff: 6
+
+        Finished: 3
+        Current staff: 4
+
+------------------------------------
+Time: 13
+        Starting: 2
+        Finished: 4
+        Current staff: 2
+
+------------------------------------
+Time: 18
+        Starting: 1
+        Finished: 2
+        Current staff: 4
+
+        Finished: 1
+        Current staff: 0
+
+**** Shortest possible project execution is 21 ****
+
+
+
+----------buildgarage.txt
+**************************
+**-- Task information --**
+**************************
+
+--------
+ID: 1
+Name: get-paperwork
+Time: 14280
+Staff: 1
+Earliest starting time: 0
+Slack: 0
+Is this task critical: Yes
+Tasks that depend on this task: 2 3
+
+--------
+ID: 2
+Name: call-contractor
+Time: 4
+Staff: 1
+Earliest starting time: 0
+Slack: 0
+Is this task critical: Yes
+Tasks that depend on this task: 4
+
+--------
+ID: 3
+Name: clean-yard
+Time: 215902
+Staff: 3
+Earliest starting time: 0
+Slack: 0
+Is this task critical: Yes
+Tasks that depend on this task: 4
+
+--------
+ID: 4
+Name: build-foundation
+Time: 32134
+Staff: 2
+Earliest starting time: 0
+Slack: 0
+Is this task critical: Yes
+Tasks that depend on this task: 5 6 7
+
+--------
+ID: 5
+Name: build-wall-support
+Time: 41232
+Staff: 4
+Earliest starting time: 0
+Slack: 0
+Is this task critical: Yes
+Tasks that depend on this task: 8 9 11
+
+--------
+ID: 6
+Name: lay-electrical-cables
+Time: 142
+Staff: 1
+Earliest starting time: 0
+Slack: 0
+Is this task critical: Yes
+Tasks that depend on this task:
+
+--------
+ID: 7
+Name: call-electrician
+Time: 15
+Staff: 1
+Earliest starting time: 0
+Slack: 0
+Is this task critical: Yes
+Tasks that depend on this task: 8
+
+--------
+ID: 8
+Name: install-electrical-gate-opener
+Time: 41245
+Staff: 2
+Earliest starting time: 0
+Slack: 0
+Is this task critical: Yes
+Tasks that depend on this task:
+
+--------
+ID: 9
+Name: build-walls
+Time: 6127
+Staff: 4
+Earliest starting time: 0
+Slack: 0
+Is this task critical: Yes
+Tasks that depend on this task: 10 13
+
+--------
+ID: 10
+Name: add-gate
+Time: 54322
+Staff: 3
+Earliest starting time: 0
+Slack: 0
+Is this task critical: Yes
+Tasks that depend on this task: 8
+
+--------
+ID: 11
+Name: build-stairs
+Time: 4325
+Staff: 2
+Earliest starting time: 0
+Slack: 0
+Is this task critical: Yes
+Tasks that depend on this task: 12
+
+--------
+ID: 12
+Name: add-2nd-floor
+Time: 121478
+Staff: 4
+Earliest starting time: 0
+Slack: 0
+Is this task critical: Yes
+Tasks that depend on this task: 13
+
+--------
+ID: 13
+Name: isolate-room
+Time: 1242
+Staff: 3
+Earliest starting time: 0
+Slack: 0
+Is this task critical: Yes
+Tasks that depend on this task: 14
+
+--------
+ID: 14
+Name: furnish-appartment
+Time: 54320
+Staff: 2
+Earliest starting time: 0
+Slack: 0
+Is this task critical: Yes
+Tasks that depend on this task:
+
+------------------------------------
+Time: 0
+        Starting: 1
+        Current staff: 1
+
+        Finished: 1
+        Starting: 2
+        Starting: 3
+        Current staff: 4
+
+        Finished: 2
+        Current staff: 3
+
+        Finished: 3
+        Starting: 4
+        Current staff: 2
+
+        Finished: 4
+        Starting: 5
+        Starting: 6
+        Starting: 7
+        Current staff: 6
+
+        Finished: 7
+        Current staff: 5
+
+        Finished: 6
+        Current staff: 4
+
+        Finished: 5
+        Starting: 9
+        Starting: 11
+        Current staff: 6
+
+        Finished: 11
+        Starting: 12
+        Current staff: 8
+
+        Finished: 9
+        Starting: 10
+        Current staff: 7
+
+------------------------------------
+Time: 363997
+        Starting: 8
+        Finished: 10
+        Current staff: 6
+
+        Finished: 8
+        Current staff: 4
+
+        Finished: 12
+        Starting: 13
+        Current staff: 3
+
+        Finished: 13
+        Starting: 14
+        Current staff: 2
+
+        Finished: 14
+        Current staff: 0
+
+**** Shortest possible project execution is 484913 ****
+
+----------buildhouse1.txt
+
+**************************
+**-- Task information --**
+**************************
+
+--------
+ID: 1
+Name: Build-walls
+Time: 4
+Staff: 2
+Earliest starting time: 0
+Slack: 0
+Is this task critical: Yes
+Tasks that depend on this task: 2 3
+
+--------
+ID: 2
+Name: Build-roofs
+Time: 6
+Staff: 4
+Earliest starting time: 0
+Slack: 0
+Is this task critical: Yes
+Tasks that depend on this task: 3 4 7
+
+--------
+ID: 3
+Name: Put-on-wallpapers
+Time: 1
+Staff: 2
+Earliest starting time: 0
+Slack: 0
+Is this task critical: Yes
+Tasks that depend on this task: 8
+
+--------
+ID: 4
+Name: Put-on-tiles
+Time: 1
+Staff: 3
+Earliest starting time: 0
+Slack: 0
+Is this task critical: Yes
+Tasks that depend on this task:
+
+--------
+ID: 5
+Name: Build-foundation
+Time: 4
+Staff: 2
+Earliest starting time: 0
+Slack: 0
+Is this task critical: Yes
+Tasks that depend on this task: 1 6
+
+--------
+ID: 6
+Name: Make-floor
+Time: 2
+Staff: 2
+Earliest starting time: 0
+Slack: 0
+Is this task critical: Yes
+Tasks that depend on this task: 7
+
+--------
+ID: 7
+Name: Put-carpet-floor
+Time: 4
+Staff: 2
+Earliest starting time: 0
+Slack: 0
+Is this task critical: Yes
+Tasks that depend on this task: 8
+
+--------
+ID: 8
+Name: Move-in
+Time: 4
+Staff: 4
+Earliest starting time: 0
+Slack: 0
+Is this task critical: Yes
+Tasks that depend on this task:
+
+------------------------------------
+Time: 0
+        Starting: 5
+        Current staff: 2
+
+------------------------------------
+Time: 4
+        Starting: 1
+        Finished: 5
+        Starting: 6
+        Current staff: 4
+
+        Finished: 6
+        Current staff: 2
+
+        Finished: 1
+        Starting: 2
+        Current staff: 4
+
+        Finished: 2
+        Starting: 3
+        Starting: 4
+        Starting: 7
+        Current staff: 7
+
+        Finished: 3
+        Finished: 4
+        Current staff: 2
+
+        Finished: 7
+        Starting: 8
+        Current staff: 4
+
+        Finished: 8
+        Current staff: 0
+
+**** Shortest possible project execution is 22 ****
+
+
+
+
+----------buildhouse2.txt
+
+**************************
+**-- Task information --**
+**************************
+
+--------
+ID: 1
+Name: Build-walls
+Time: 4
+Staff: 2
+Earliest starting time: 0
+Slack: 0
+Is this task critical: Yes
+Tasks that depend on this task: 2 3
+
+--------
+ID: 2
+Name: Build-roofs
+Time: 6
+Staff: 4
+Earliest starting time: 0
+Slack: 0
+Is this task critical: Yes
+Tasks that depend on this task: 3 4 7
+
+--------
+ID: 3
+Name: Put-on-wallpapers
+Time: 1
+Staff: 2
+Earliest starting time: 0
+Slack: 0
+Is this task critical: Yes
+Tasks that depend on this task: 8
+
+--------
+ID: 4
+Name: Put-on-tiles
+Time: 1
+Staff: 3
+Earliest starting time: 0
+Slack: 0
+Is this task critical: Yes
+Tasks that depend on this task:
+
+--------
+ID: 5
+Name: Build-foundation
+Time: 4
+Staff: 2
+Earliest starting time: 0
+Slack: 0
+Is this task critical: Yes
+Tasks that depend on this task: 1
+
+--------
+ID: 6
+Name: Make-floor
+Time: 2
+Staff: 2
+Earliest starting time: 0
+Slack: 0
+Is this task critical: Yes
+Tasks that depend on this task: 1
+
+--------
+ID: 7
+Name: Put-carpet-floor
+Time: 4
+Staff: 2
+Earliest starting time: 0
+Slack: 0
+Is this task critical: Yes
+Tasks that depend on this task: 6 8
+
+--------
+ID: 8
+Name: Move-in
+Time: 4
+Staff: 4
+Earliest starting time: 0
+Slack: 0
+Is this task critical: Yes
+Tasks that depend on this task:
+
+The project is not relizable due to a cycle
+The cycle is: 1>2>7>6>1>2
+
+
+
+
+----------buildrail.txt
+
+**************************
+**-- Task information --**
+**************************
+
+--------
+ID: 1
+Name: Install-pavement
+Time: 20
+Staff: 10
+Earliest starting time: 0
+Slack: 0
+Is this task critical: Yes
+Tasks that depend on this task:
+
+--------
+ID: 2
+Name: Install-railing
+Time: 7
+Staff: 10
+Earliest starting time: 0
+Slack: 0
+Is this task critical: Yes
+Tasks that depend on this task:
+
+--------
+ID: 3
+Name: Install-ticketmachine
+Time: 1
+Staff: 10
+Earliest starting time: 0
+Slack: 0
+Is this task critical: Yes
+Tasks that depend on this task:
+
+--------
+ID: 4
+Name: Paint-tower-1-with-arch
+Time: 15
+Staff: 6
+Earliest starting time: 0
+Slack: 0
+Is this task critical: Yes
+Tasks that depend on this task:
+
+--------
+ID: 5
+Name: Paint-tower-2
+Time: 12
+Staff: 6
+Earliest starting time: 0
+Slack: 0
+Is this task critical: Yes
+Tasks that depend on this task:
+
+--------
+ID: 6
+Name: Paint-trusses
+Time: 27
+Staff: 6
+Earliest starting time: 0
+Slack: 0
+Is this task critical: Yes
+Tasks that depend on this task:
+
+--------
+ID: 7
+Name: Paint-cables-and-rods
+Time: 18
+Staff: 6
+Earliest starting time: 0
+Slack: 0
+Is this task critical: Yes
+Tasks that depend on this task:
+
+--------
+ID: 8
+Name: Put-lane-tunnel-and-intersection
+Time: 12
+Staff: 7
+Earliest starting time: 0
+Slack: 0
+Is this task critical: Yes
+Tasks that depend on this task: 3 31
+
+--------
+ID: 9
+Name: Setup-barrack
+Time: 3
+Staff: 10
+Earliest starting time: 0
+Slack: 0
+Is this task critical: Yes
+Tasks that depend on this task: 10 11 12 14 16 17
+
+--------
+ID: 10
+Name: Prepare-storage
+Time: 2
+Staff: 4
+Earliest starting time: 0
+Slack: 0
+Is this task critical: Yes
+Tasks that depend on this task: 2
+
+--------
+ID: 11
+Name: Rig-ramspace-reinforcing
+Time: 1
+Staff: 4
+Earliest starting time: 0
+Slack: 0
+Is this task critical: Yes
+Tasks that depend on this task: 18 19 20
+
+--------
+ID: 12
+Name: Build-tunnel
+Time: 30
+Staff: 12
+Earliest starting time: 0
+Slack: 0
+Is this task critical: Yes
+Tasks that depend on this task: 13
+
+--------
+ID: 13
+Name: Clean-tunnel
+Time: 18
+Staff: 12
+Earliest starting time: 0
+Slack: 0
+Is this task critical: Yes
+Tasks that depend on this task: 8
+
+--------
+ID: 14
+Name: Build-intersection
+Time: 25
+Staff: 12
+Earliest starting time: 0
+Slack: 0
+Is this task critical: Yes
+Tasks that depend on this task: 15
+
+--------
+ID: 15
+Name: Clean-intersection
+Time: 20
+Staff: 12
+Earliest starting time: 0
+Slack: 0
+Is this task critical: Yes
+Tasks that depend on this task: 8
+
+--------
+ID: 16
+Name: Build-towerfoundation-1
+Time: 35
+Staff: 12
+Earliest starting time: 0
+Slack: 0
+Is this task critical: Yes
+Tasks that depend on this task: 21
+
+--------
+ID: 17
+Name: Build-towerfoundation-2
+Time: 45
+Staff: 12
+Earliest starting time: 0
+Slack: 0
+Is this task critical: Yes
+Tasks that depend on this task: 22
+
+--------
+ID: 18
+Name: Make-armouring-tower-1
+Time: 40
+Staff: 4
+Earliest starting time: 0
+Slack: 0
+Is this task critical: Yes
+Tasks that depend on this task: 21
+
+--------
+ID: 19
+Name: Make-armouring-tower-2
+Time: 25
+Staff: 4
+Earliest starting time: 0
+Slack: 0
+Is this task critical: Yes
+Tasks that depend on this task: 22
+
+--------
+ID: 20
+Name: Make-armouring-arch
+Time: 12
+Staff: 4
+Earliest starting time: 0
+Slack: 0
+Is this task critical: Yes
+Tasks that depend on this task: 23
+
+--------
+ID: 21
+Name: Encase-and-armour-tower-1
+Time: 15
+Staff: 5
+Earliest starting time: 0
+Slack: 0
+Is this task critical: Yes
+Tasks that depend on this task: 24
+
+--------
+ID: 22
+Name: Encase-and-armour-tower-2
+Time: 16
+Staff: 5
+Earliest starting time: 0
+Slack: 0
+Is this task critical: Yes
+Tasks that depend on this task: 25
+
+--------
+ID: 23
+Name: Encase-and-armour-arch
+Time: 30
+Staff: 5
+Earliest starting time: 0
+Slack: 0
+Is this task critical: Yes
+Tasks that depend on this task: 26
+
+--------
+ID: 24
+Name: Cast-tower-1
+Time: 60
+Staff: 7
+Earliest starting time: 0
+Slack: 0
+Is this task critical: Yes
+Tasks that depend on this task: 4 27
+
+--------
+ID: 25
+Name: Cast-tower-2
+Time: 60
+Staff: 7
+Earliest starting time: 0
+Slack: 0
+Is this task critical: Yes
+Tasks that depend on this task: 5 27
+
+--------
+ID: 26
+Name: Cast-arch
+Time: 20
+Staff: 7
+Earliest starting time: 0
+Slack: 0
+Is this task critical: Yes
+Tasks that depend on this task: 31
+
+--------
+ID: 27
+Name: Stretch-two-maincables
+Time: 25
+Staff: 10
+Earliest starting time: 0
+Slack: 0
+Is this task critical: Yes
+Tasks that depend on this task: 28 29
+
+--------
+ID: 28
+Name: Build-truss-1-with-rods
+Time: 30
+Staff: 10
+Earliest starting time: 0
+Slack: 0
+Is this task critical: Yes
+Tasks that depend on this task: 1 6 7 30
+
+--------
+ID: 29
+Name: Build-truss-2-with-rods
+Time: 37
+Staff: 10
+Earliest starting time: 0
+Slack: 0
+Is this task critical: Yes
+Tasks that depend on this task: 1 6 7 30
+
+--------
+ID: 30
+Name: Cast-lane-on-truss
+Time: 20
+Staff: 7
+Earliest starting time: 0
+Slack: 0
+Is this task critical: Yes
+Tasks that depend on this task: 31
+
+--------
+ID: 31
+Name: Polish-lane-on-arch
+Time: 12
+Staff: 7
+Earliest starting time: 0
+Slack: 0
+Is this task critical: Yes
+Tasks that depend on this task:
+
+------------------------------------
+Time: 0
+        Starting: 9
+        Current staff: 10
+
+        Finished: 9
+        Starting: 10
+        Starting: 11
+        Starting: 12
+        Starting: 14
+        Starting: 16
+        Starting: 17
+        Current staff: 56
+
+        Finished: 11
+        Starting: 18
+        Starting: 19
+        Starting: 20
+        Current staff: 64
+
+------------------------------------
+Time: 5
+        Starting: 2
+        Finished: 10
+        Current staff: 70
+
+        Finished: 2
+        Current staff: 60
+
+        Finished: 20
+        Starting: 23
+        Current staff: 61
+
+        Finished: 14
+        Starting: 15
+        Current staff: 61
+
+        Finished: 19
+        Current staff: 57
+
+        Finished: 12
+        Starting: 13
+        Current staff: 57
+
+        Finished: 16
+        Current staff: 45
+
+        Finished: 18
+        Starting: 21
+        Current staff: 46
+
+        Finished: 23
+        Starting: 26
+        Current staff: 48
+
+        Finished: 15
+        Finished: 17
+        Starting: 22
+        Current staff: 29
+
+------------------------------------
+Time: 51
+        Starting: 8
+        Finished: 13
+        Current staff: 24
+
+        Finished: 21
+        Starting: 24
+        Current staff: 26
+
+------------------------------------
+Time: 63
+        Starting: 3
+        Finished: 8
+        Current staff: 29
+
+        Finished: 3
+        Finished: 22
+        Starting: 25
+        Current staff: 21
+
+        Finished: 26
+        Current staff: 14
+
+------------------------------------
+Time: 119
+        Starting: 4
+        Finished: 24
+        Current staff: 13
+
+------------------------------------
+Time: 124
+        Starting: 5
+        Finished: 25
+        Starting: 27
+        Current staff: 22
+
+        Finished: 4
+        Current staff: 16
+
+        Finished: 5
+        Current staff: 10
+
+        Finished: 27
+        Starting: 28
+        Starting: 29
+        Current staff: 20
+
+        Finished: 28
+        Current staff: 10
+
+------------------------------------
+Time: 186
+        Starting: 1
+        Starting: 6
+        Starting: 7
+        Finished: 29
+        Starting: 30
+        Current staff: 29
+
+        Finished: 7
+        Current staff: 23
+
+        Finished: 1
+        Finished: 30
+        Starting: 31
+        Current staff: 13
+
+        Finished: 6
+        Current staff: 7
+
+        Finished: 31
+        Current staff: 0
+
+**** Shortest possible project execution is 218 ****

@@ -1,0 +1,31 @@
+Her finner du svarene på oppgave 4
+
+
+1. What is the time complexity of your solution? You must explain the stated complexity. If you have different complexity for each problem, you need to discuss them seperately.
+
+Firstly I am going to list up all the used functions and their Big Oh notation:
+- isRealizable() = O(|N|)
+The function runs N (The amount of vertices) times before it hit's it's base case.
+
+- tilbakeStilling() = O(|N|)
+The function loops through all of tasks 1 time, so it's only run N times
+
+- TopologicalSort() = O(|N|)
+The function runs multiple loops for each task, but O(N) + O(N) = O(N). And therfore the the Big
+Oh notation for this solution is O(|N|)
+
+
+
+2. What requirements are there for input graph in order for the project to be successfully planned? Please put the discussion in the list of the graf theoretical properties.
+
+Requirements:
+All edges have to be directional. If we have a edge that is not directional, we can risk the planner just 
+goes back and forth into a cycle. 
+There has to be a finite amount of tasks for a project to be planned. 
+Have to be a DAG. Directional Acyclic Graph. 
+
+
+
+
+3. What kind of the graph algorithms did you use in your implementation?
+I used Topological sorting to queue the tasks correctly. The one I used is heavily influenced by the one found in our algorithm book

@@ -11,9 +11,10 @@ public class Oblig2 {
     public static void main(String[] args) {
         File filen = new File(args[0]);
         lesFraFil(filen , args[0]);
-        prosjektObj.debug();
+        
         if(prosjektObj.isRealizable()) {
             prosjektObj.mostOptimalScheduel();
+            prosjektObj.debug();
         } else {
             System.out.println("The project is not relizable due to a cycle");
             System.out.println(prosjektObj.cycle);
